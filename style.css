@@ -1,0 +1,77 @@
+/* Definindo um estilo padrão para todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo estilos para a área do cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilo para o logotipo */
+  header img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para a barra de navegação */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilos para as áreas do conteúdo principal */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  section {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Definindo estilos para o rodapé da página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para botões */
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Estilos para formatação de texto */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
